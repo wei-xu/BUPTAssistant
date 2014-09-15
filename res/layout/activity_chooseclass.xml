@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <CheckBox 
+        android:id="@+id/class01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="通信原理"/>
+    <CheckBox 
+        android:id="@+id/class02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="计算机网络（老师A）"/>
+    <CheckBox 
+        android:id="@+id/class03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="计算机网络（老师B）"/>
+    <CheckBox 
+        android:id="@+id/class04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Java网络编程"/>
+    <CheckBox 
+        android:id="@+id/class05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="现代通信技术"/>
+    <CheckBox 
+        android:id="@+id/class06"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="计算机导论"/>
+
+    <Button 
+        android:id="@+id/done_choose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Done"/>
+</LinearLayout>

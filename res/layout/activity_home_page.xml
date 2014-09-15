@@ -1,0 +1,136 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/helloUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:text="@string/hello_world" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/studyLayout"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="horizontal" 
+            android:layout_marginBottom="10dp"><!-- 功能部分  -->>
+
+            <ImageView
+                android:id="@+id/studyPic"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@drawable/home_study" />
+            
+            <LinearLayout
+                android:id="@+id/studyText"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:orientation="vertical"
+                 >
+
+	            <TextView
+	                android:id="@+id/chooseClass"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:layout_weight="1"
+	                android:text="选课" 
+	                android:gravity="center"
+	                android:layout_marginBottom="10dp"
+	                android:layout_marginLeft="5dp"
+	                android:textSize="20sp"
+	                android:background="#FFCC99"/>
+	            <TextView 
+	                android:id="@+id/secondStudyText"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:background="#FFCC99"
+	                android:gravity="center"
+	                android:layout_marginLeft="5dp"
+	                android:layout_marginBottom="10dp"
+	                android:text="This is second"
+	                android:textSize="20sp"/>
+	            <TextView 
+	                android:id="@+id/thirdStudyText"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:background="#FFCC99"
+	                android:gravity="center"
+	                android:layout_marginLeft="5dp"
+	                android:text="This is third"
+	                android:textSize="20sp"/>
+			</LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/foodLayout"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="horizontal" 
+            android:layout_marginBottom="10dp"> <!-- 美食部分 -->>
+
+            <ImageView
+                android:id="@+id/foodPic"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@drawable/home_food" />
+            
+            <LinearLayout
+                android:id="@+id/foodText"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:orientation="vertical" 
+                >
+
+	            <TextView
+	                android:id="@+id/firstFoodText"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:layout_weight="1"
+	                android:text="This is first" 
+	                android:gravity="center"
+	                android:layout_marginBottom="10dp"
+	                android:layout_marginLeft="5dp"
+	                android:textSize="20sp"
+	                android:background="#339933"/>
+	            <TextView 
+	                android:id="@+id/secondFoodText"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:layout_weight="0"
+	                android:background="#339933"
+	                android:gravity="center"
+	                android:layout_marginLeft="5dp"
+	                android:layout_marginBottom="10dp"
+	                android:text="This is second"
+	                android:textSize="20sp"/>
+	            <TextView 
+	                android:id="@+id/thirdfoodText"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:layout_weight="0"
+	                android:background="#339933"
+	                android:gravity="center"
+	                android:layout_marginLeft="5dp"
+	                android:text="This is third"
+	                android:textSize="20sp"/>
+			</LinearLayout>
+        </LinearLayout>
+        
+
+    </LinearLayout>
+
+</LinearLayout>
